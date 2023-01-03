@@ -5,7 +5,7 @@ import secrets
 import string
 
 
-def create_pw(pw_length=12):
+def create_pw(pw_length=21):
    letters = string.ascii_letters
    digits = string.digits
    special_chars = string.punctuation
