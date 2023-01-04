@@ -20,7 +20,7 @@ def binarySearch(sayı, x, low, high):
     return -1
 
 
-sayı = [3, 4, 5, 6, 7, 8, 9]
+sayı = [1, 3, 5, 6, 7, 9, 11]
 x = 6
 
 result = binarySearch(sayı, x, 0, len(sayı)-1)
