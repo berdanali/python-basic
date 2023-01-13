@@ -1,9 +1,7 @@
 import random
 ben=0
 sen=0
-
-
-while ben!=3 or sen!=3:
+while 1==1:
  secenekler = int(input("Taş: 0, Kağıt: 1, Makas: 2 :"))
  kısı2 = random.randint(0,2)
  kısı1=secenekler
@@ -47,5 +45,9 @@ while ben!=3 or sen!=3:
     print("Ben kazandım ... ")   
     ben+=1
     print("Skor Tablosu : ", ben , sen)
-
- 
+ if (ben == 3 or sen == 3):
+    break
+if(ben==3):
+    print("Ben kazandım .. ")
+else:
+    print("Sen kazandın ")
