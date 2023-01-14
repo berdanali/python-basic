@@ -43,6 +43,8 @@ while 1 == 1:
     if (ben == 3 or sen == 3):
         break
 if (ben == 3):
+
     print("Ben kazandım EZ WIN ")
+
 else:
     print("Sen kazandın ")
